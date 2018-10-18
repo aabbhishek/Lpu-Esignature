@@ -1,0 +1,241 @@
+*{
+		font-family: 'Roboto', sans-serif;
+		outline: 0px;
+	}
+	body{
+		margin: 0px;
+	}
+	h2{
+		margin: 0px;
+		font-family: 'Cairo',sans-serif;
+		text-align: center;	
+		font-size: 24px;
+		font-weight: normal;
+	}
+	button,button:focus,button:active {
+		outline: none;
+	}
+	.e-signature{
+		position: relative;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.left_section {
+		min-width: 430px;
+		position: relative;
+	}
+	.selection-option{
+		height: 150px;
+		width: 100%;
+		background-color: rgba(236,239,241 ,1);
+		background-color: #f1f1f1;
+	}	
+	.options{
+		padding:20px 0px 20px 0px; 
+		text-align: center;
+	}
+	.btn-own{
+		padding: 2px 2px 2px 2px;
+		background-color: #fff;
+		color: #444;
+		border: none;
+		margin: 0 10px;
+		height: 50px;
+		width: 30%;
+		cursor: pointer;
+		transition: 0.2s ease-in-out;
+		border: 1px solid #ddd;
+		display: inline-block;
+	}
+	.btn-own:hover{
+		/*font-weight: bold;*/
+		color: #333;
+		/*background-color:  #333;*/
+		border-color: #333;
+	}.input-section{
+		position: fixed;
+		width: 400px;
+		min-height: 570px;
+		height: 100%;
+		background-color: rgba(236,239,241 ,1);
+		background: #f1f1f1;
+		text-align: center;
+	}
+	.input-section h3{
+		font-family: 'Cairo',sans-serif;
+		font-weight: normal;
+		font-size: 20px;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	.input-section h3 span{
+		border-bottom: 1px solid #777;
+		padding-bottom: 3px;
+	}.btn_details{
+	/*font-weight: bold;*/
+		/*height: 30px;*/
+		width: 90%;
+		background-color: #fff;
+		border: 1px solid #333;
+		font-size: 16px;
+		cursor: pointer;
+		font-family: 'Cairo', sans-serif !important;
+		transition: 0.2s ease-in-out;
+		padding:5px;
+		margin-bottom: 10px;
+		outline: none;
+	}
+	.btn_details svg {
+		float: right;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	.data_section {
+		margin-bottom: 10px;
+		padding: 0 20px;
+	}
+	.social_link_data .input_text {
+		padding-left: 45px;
+	}
+	.btn_details:hover{background-color: #333;color: #fff;}
+	h3{padding-top: 10px;}
+	.in_data{ font-size: 20px;
+	padding: 10px 10px 10px 10px;
+	position: relative;
+	}.in_data:focus{border: 2px solid black;}
+	.input_text{
+		border: 3px solid rgba(255,255,255 ,1);
+		height: 30px;
+		width: 90%;
+		outline: 0px;
+		font-size: 20px;
+		text-align: center; 
+	}
+	.text_info{
+		padding: 0px 0px 0px 30px;
+	}
+	.icon{
+		position: absolute;
+		padding: 10px 10px 4px 10px;
+		background-color: #ddd; 
+		width: 20px;
+		color: #777;
+	}
+	.main_two_contain{
+		/*margin-left: 20px;*/
+		width: 100%;
+	}
+	.graphics-show{
+
+		background-color: rgba(255,255,255 ,1);
+		/*border: 10px solid rgba(236,239,241 ,1);*/
+		width: 100%;
+		position: relative;
+	}
+	.graphics_area_heading h3 {
+		font-family: 'Cairo',sans-serif;
+		font-weight: normal;
+		font-size: 26px;
+		margin: 5px 0 0;
+		padding-bottom: 5px;
+		border-bottom: 1px solid #777;
+	}
+	.signature_display {
+		padding: 20px;
+		transform: scale(1.5);
+		max-width: 550px;
+		position: relative;
+		left: 150px;
+		top: 65px;
+	}
+	.radio_type{  border: 2px solid #222;	}
+	.text_radio{  font-size: 20px;	display: inline-block;position: relative;	margin-right: 20px;}
+
+	.text_radio .radiomark {
+	    position: absolute;
+		top: 3px;
+		right: 3px;
+		width: 10px;
+		height: 10px;
+		border: 1px solid #222;
+		padding: 4px;
+		transition: 0.2s;
+	}
+
+	.text_radio input {
+		position: relative;
+		z-index: 10;
+		width: 20px;
+		height: 15px;
+		cursor: pointer;
+		opacity: 0;
+	}
+	.text_radio input[type='radio']:hover ~ .radiomark {
+	    background-color: #ccc;
+	}
+	.text_radio input[type='radio']:checked ~ .radiomark {
+	    background-color: #222;
+	}
+	.text_radio input[type='radio']:checked ~ .radiomark:after {
+	    content: '';
+		display: block;
+		width: 10px;
+		height: 10px;
+		background-color: #fff;
+		transition: 0.2s;
+		margin: auto;
+	}
+	.foot-button {
+		position: absolute;
+		width: 100%;
+		height: 50px;
+		text-align: center;
+		top: calc(100% + 150px);
+	}
+	#copy-button {
+		/*position: absolute;*/
+		font-family: 'Cairo',sans-serif;
+		left: 0;
+		font-size: 16px;
+		bottom: 0;
+		border: 0;
+		background-color: #fff;
+		border: 1px solid #222;
+		padding: 15px 30px;
+		cursor: pointer;
+		color: #222;
+		transition: 0.3s;
+		position: relative;
+		overflow: hidden;
+		width: 800px;
+	}
+	#copy-button span {
+		position: relative;
+		z-index: 1;
+	}
+	#copy-button:before {
+		content: '';
+		position: absolute;
+		width: 101%;
+		height: 100%;
+		left: 0;
+		transform: translateX(-100%);
+		transition: 0.3s;
+		background-color: #222;
+		top: 0;
+	}
+	#copy-button:hover {
+		box-shadow: 0 0 5px #222;
+		/*color: #fff;*/
+	}
+	#copy-button.copied {
+		font-weight: bold;
+		transition-delay: 0.4s;
+		color: #fff;
+	}
+	#copy-button.copied:before {
+		
+		transform: translateX(0);
+	}

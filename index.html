@@ -1,0 +1,374 @@
+<!-- Made By 
+
+   #    ######  #     #   ###    #####  #     # ####### #    #
+  # #   #     # #     #    #    #     # #     # #       #   #
+ #   #  #     # #     #    #    #       #     # #       #  #
+#     # ######  #######    #     #####  ####### #####   ###
+####### #     # #     #    #          # #     # #       #  #
+#     # #     # #     #    #    #     # #     # #       #   #
+#     # ######  #     #   ###    #####  #     # ####### #    #
+
+
+and 
+
+
+ #####  #     # ######  #     #    #    ######  ####### ####### ######
+#     # #     # #     # #     #   # #   #     # #       #       #     #
+#       #     # #     # #     #  #   #  #     # #       #       #     #
+ #####  #     # ######  ####### #     # #     # #####   #####   ######
+      # #     # #     # #     # ####### #     # #       #       #
+#     # #     # #     # #     # #     # #     # #       #       #
+ #####   #####  ######  #     # #     # ######  ####### ####### # 
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="e-signature.css">
+<style type="text/css">
+	
+</style>
+<body>
+<body>
+	<div class="container">
+		<div class="e-signature">
+			<div class="left_section">
+				<!-- <div class="selection-option">
+					<br>
+					<h2>Choose a Get Option</h2>
+					<div class="options">
+						<button class="btn-own html">HTML</button>
+						<button class="btn-own png">PNG</button>
+				    </div>
+				</div> -->
+				<div class="input-section">
+
+					<h3>
+						<span>Enter Signature Details</span>
+					</h3>
+					<button class="personal_data btn_details" >Personal Data<i class="fa fa-caret-down"></i></button>
+					<div class="personal_data_section data_section" >
+						<div class="text_radio">Student &nbsp; 
+							<input class="radio_type" type="radio" name="profile_title" value="student"> 
+							<span class="radiomark"></span>
+						</div> 
+						<div class="text_radio">Faculty 
+							<input class="radio_type" type="radio" name="profile_title" value="faculty">
+							<span class="radiomark"></span>
+						</div>
+						<div class="in_data">  <input class="input_text f_name_text" placeholder="First Name" type="text" required=""></div>
+						<div class="in_data">  <input class="input_text l_name_text" placeholder="Last Name" type="text" name="" required=""></div>
+						<div class="in_data">  <input class="input_text prof_text" placeholder="Job Title" type="text" name="" required=""></div>
+						<div class="in_data">  <input class="input_text phone_text" maxlength="10"  placeholder="Phone Number" type="text" name="" required=""></div>
+						<div class="in_data">  <input class="input_text email_text" placeholder="Email Address" type="email" name="" required=""></div>
+						<div class="in_data">  <input class="input_text website_text" placeholder="Website" type="text" name="" required=""></div>
+					</div>
+					
+					<button class="graphics_data btn_details">Graphics Data<i class="fa fa-caret-down"></i></button>
+					<div class="graphics_data_section data_section" style="display: none;">
+						<p class="text_info">Image URL (Use a Image with a minimum width of 514 pixels)</p>
+						<div class="in_data">
+							<input class="input_text img_url" placeholder="Enter URL of Image" type="url" name="" required="">
+						</div>
+						
+					</div>
+
+					<button class="social_data btn_details">Social Media Link<i class="fa fa-caret-down"></i></button>
+					<div class="social_link_data data_section" style="display: none;">
+						<div class="in_data"> <span class="icon"><i class="fab fa-facebook-f"></i></span> <input class="input_text fbdata" placeholder="Facebook" type="text" name="" required=""></div>
+						<div class="in_data"> <span class="icon"><i class="fab fa-twitter"></i></span> <input class="input_text twdata" placeholder="Twitter" type="text" name="" required=""></div>
+						<div class="in_data"> <span class="icon"><i class="fab fa-linkedin"></i></span> <input class="input_text lndata" placeholder="LinkedIn" type="text" name="" required=""></div>
+						<div class="in_data"> <span class="icon"><i class="fab fa-instagram"></i></span> <input class="input_text indata" placeholder="Instagram" type="text" name="" required=""></div>
+						<div class="in_data"> <span class="icon"><i class="fab fa-google-plus"></i></span> <input class="input_text gpdata" placeholder="Google Plus" type="text" name="" required=""></div>
+						<div class="in_data"> <span class="icon"><i class="fab fa-github"></i></span> <input class="input_text ghdata" placeholder="Github" type="text" name="" required=""></div>
+					</div>
+				</div>
+			</div>
+			<div class="main_two_contain">
+			
+
+				<div class="graphics-show">
+					<link href="https://fonts.googleapis.com/css?family=Assistant:800" rel="stylesheet">
+					<div class="graphics_area_heading">
+						<h3>Signature Preview</h3>	
+					</div>
+					
+					
+					<div class="signature_display" id="signature-content-holder">
+						<div><img src="http://www.lpu.in/images/logo/logo.png" style="height:50px;width: 90px;margin-left: 350px"></div>
+						<div style="display: flex;justify-content: space-around;">
+							<div style="width: 190px;padding-right: 10px;border-right: 2px solid #222;height: 155px;text-align: center;">
+								<img src="https://signature-generator.cdn.codetwo.com/images/simplephoto/photo.png" class="profile_image" style="width: 100px;left: 0px;position: relative;margin-top: 30px;border-radius: 80px;">
+							</div>
+							<div style="width: 100%;padding: 0 20px;">
+								<p style="margin: 0;color: #222;font-size: 16px; font-family: 'Cairo',sans-serif;line-height: 1;margin-bottom: 10px;">
+									<span class="fname" style="margin-right: 5px;">FirstName</span>
+									<span class="lname">LastName</span>
+								</p>
+								<p style="margin: 0;margin-top:5px ;color: #222;font-size: 10px;font-family: 'Cairo',sans-serif;">
+									<span class="profession_key" style="margin-right: 5px;color: #f58220;">Works as</span>
+									<span class="profession">Profession</span>
+								</p>
+								<p style="margin: 0;color: #222;font-size: 9px;font-family: 'Cairo',sans-serif;line-height: 1">
+									<span style="margin-right: 5px;color: #f58220;">at</span>
+									<span>Lovely Professional University</span>
+								</p>
+								<p style="margin: 0;margin-top:15px;color: #222;font-size: 10px;font-family: 'Cairo',sans-serif;line-height: 1">
+									<span style="margin-right: 5px;color: #f58220;width: ">Mobile:</span>
+									<span>+91</span>
+									<span class="phone">XXX-XXX-XXXX</span>
+								</p>
+								<p style="margin: 0;color: #222;font-size: 10px;font-family: 'Cairo',sans-serif;">
+									<span style="margin-right: 5px;color: #f58220;">Email:</span>
+									<span class="email">abc@lpu.in</span>
+								</p>
+								<p style="margin: 0;margin-top: 10px; color: #222;font-size: 10px;font-family: 'Cairo',sans-serif;">
+									<span style="margin-right: 5px;color: #f58220;">Location:</span>
+									<span>Jalandhar - Delhi G.T.Road, Phagwara, Punjab 144411</span>
+								</p>
+								<p style="margin: 0;margin-top: 5px; color: #222;font-size: 10px;font-family: 'Cairo',sans-serif;line-height: 1.2;">
+									<span class="wbl" style="margin-right: 5px;color: #f58220;">Website:</span>
+									<span class="web_link"><a href="http://www.lpu.in" style="color: #222;">www.lpu.in</a></span>
+								</p>
+								<div style="margin-top: 10px; "">
+									<a href="" class="fblink" style="display: none;width: 16px;height:16px;overflow: hidden;"><img src="https://www.iconsdb.com/icons/preview/orange/facebook-7-xxl.png" style="width: 16px;"></a>
+									<a href="" class="twlink" style="display: none;width: 16px;height:16px;overflow: hidden;"><img src="https://www.iconsdb.com/icons/preview/orange/twitter-4-xxl.png" style="width: 16px;"></a>
+									<a href="" class="lnlink" style="display: none;width: 16px;height:16px;overflow: hidden;"><img src="https://www.iconsdb.com/icons/preview/orange/linkedin-4-xxl.png" style="width: 16px;"></a>
+									<a href="" class="inlink" style="display: none;width: 16px;height:16px;overflow: hidden;"><img src="https://www.iconsdb.com/icons/preview/orange/instagram-4-xxl.png" style="width: 16px;"></a>
+									<a href="" class="gplink" style="display: none;width: 16px;height:16px;overflow: hidden;"><img src="https://www.iconsdb.com/icons/preview/orange/google-plus-4-xxl.png" style="width: 16px;"></a>
+									<a href="" class="ghlink" style="display: none;width: 16px;height:16px;overflow: hidden;"><img src="https://www.iconsdb.com/icons/preview/orange/github-9-xxl.png" style="width: 16px;"></a>
+									<!-- https://i1.wp.com/congruentdigital.com/wp-content/uploads/2013/10/Social_Icons_001.png -->
+									
+								</div>
+							</div>
+						</div>
+						
+						
+						<!-- <span class="vr" style="position: relative;margin-left: 15%;height: 280px;width: 2px;background-color: black;display: inline-block;"></span>
+						<h2 style="font-family: 'Assistant', sans-serif;font-size: 35px;position: relative;display: inline;left:30px;top: -255px; ">  <span class="f_name">ABC</span> <span class="l_name">XYZ</span></h2>
+						<p class="job" style="position: relative;display: inline;left: -230px;top: -220px;font-size: 17px"><span class="" style="color: #e65100;" >Pursuing </span>&nbsp; B.Tech </p>
+						<br>
+						<p class="place" style="position: relative;display: inline;font-size: 17px;left: 332px;top: -213px;"><span class="" style="color: #e65100;" >at </span>&nbsp;<span style="display: inline;"> Lovely Professional University</span> </p>
+						<br>
+						<p class="place" style="position: relative;display: inline;font-size: 17px;left: 332px;top: -195px;"><span class="" style="color: #e65100; font-size: 16px;  " > <i class="fas fa-phone"></i></span>&nbsp;<span style="display: inline;"> +91 9876543210</span> </p>
+						<br>
+						<p class="place" style="position: relative;display: inline;font-size: 17px;left: 332px;top: -180px;"><span class="" style="color: #e65100; font-size: 16px;  " > <i class="far fa-envelope-open"></i></span>&nbsp;<span style="display: inline;"> Someemail@here.com</span> </p>
+						<br>
+						<p class="place" style="position: relative;display: inline;font-size: 17px;left: 332px;top: -163px;"><span class="" style="color: #e65100; font-size: 16px;  " > <i class="fas fa-map-marker-alt"></i></span>&nbsp;<span style="display: inline;"> Jalandhar - Delhi G.T.Road, Phagwara, Punjab 144411 </span> </p>
+
+						<br>
+						<p class="place" style="position: relative;display: inline;font-size: 17px;left: 332px;top: -147px;"><span class="" style="color: #e65100; font-size: 16px;  " > <i class="fas fa-link"></i> </span>&nbsp;<span style="display: inline;"> www.lpu.in </span> </p>
+						<br>
+						<p class="links_all" style="position: relative;display: inline;font-size: 17px;left: 332px;top: -135px;">
+							<a href="" style="color: #e65100; font-size: 16px; cursor: pointer;"><i class="fab fa-facebook-f"></i></a>
+							&nbsp;&nbsp;&nbsp;
+							<a href="" style="color: #e65100; font-size: 16px; cursor: pointer;"><i class="fab fa-twitter"></i></a>
+							&nbsp;&nbsp;&nbsp;
+							<a href="" style="color: #e65100; font-size: 16px; cursor: pointer;"><i class="fab fa-linkedin"></i></a>
+							&nbsp;&nbsp;&nbsp;
+							<a href="" style="color: #e65100; font-size: 16px; cursor: pointer;"><i class="fab fa-instagram"></i></a>
+						</p>
+						 -->
+					</div>
+					<br>
+					<br>
+					<div class="foot-button">
+						<button id="copy-button"><span>Copy E-Signature</span></button>
+					</div>
+						
+				</div>
+			</div>
+			
+		</div>
+	</div>	
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+	var button = document.getElementById("copy-button"),
+	contentHolder = document.getElementById("signature-content-holder");
+
+	button.addEventListener("click", function() {
+
+	    var range = document.createRange(),
+	        selection = window.getSelection();
+	    selection.removeAllRanges();
+
+	    range.selectNodeContents(contentHolder);
+
+	    selection.addRange(range);
+
+	    document.execCommand('copy');
+	    selection.removeAllRanges();
+
+	    button.innerHTML = "<span>Copied!</span>";
+	    // button.attr
+	    button.className += " copied";
+	    // alert("Your content has been copied");
+	    setTimeout(function() {
+	    	button.innerHTML = "<span>Copy E-Signature</span>";
+	    	button.className = "copy-button";
+	    },5000);
+	}, false);
+
+	$(document).ready(function(){
+		//body
+    $(".personal_data").click(function() {
+    	$(".social_link_data,.graphics_data_section").slideUp(300);
+        $(".personal_data_section").slideDown(300);
+    });
+
+    $(".graphics_data").click(function() {
+    	$(".social_link_section,.personal_data_section").slideUp(300);
+        $(".graphics_data_section").slideDown(300);
+    });
+
+    $(".social_data").click(function() {
+    	$(".graphics_data_section,.personal_data_section").slideUp(300);
+        $(".social_link_data").slideDown(300);
+    });
+
+    $('.f_name_text').keyup(function() {
+    $('.f_name').html($(this).val());
+});
+
+$('.f_name_text').keyup(function() {
+    $('.fname').html($(this).val());
+});
+$('.l_name_text').keyup(function() {
+    $('.lname').html($(this).val());
+});
+$('.prof_text').keyup(function() {
+    $('.profession').html($(this).val());
+});
+$('.email_text').keyup(function() {
+    $('.email').html($(this).val());
+});
+$('.phone_text').keyup(function() {
+    $('.phone').html($(this).val());
+});
+$('.website_text').keyup(function() {
+	v=$(this).val();
+	if(v=="") {
+    	$('.web_link a').attr('href',"").html("");
+    	$(".wbl").html("");
+    }
+    else{
+    	$(".wbl").html("Website");
+   
+		
+		if(v.indexOf("http") == -1)
+			v="http://"+v;
+	    $('.web_link a').html($(this).val());
+	    $('.web_link a').attr('href',v);
+	}
+
+});
+$('.f_name_text').blur(function() {
+    $('.fname').html($(this).val());
+});
+$('.l_name_text').blur(function() {
+    $('.lname').html($(this).val());
+});
+$('.prof_text').blur(function() {
+    $('.profession').html($(this).val());
+});
+$('.email_text').blur(function() {
+    $('.email').html($(this).val());
+});
+$('.phone_text').blur(function() {
+    $('.phone').html($(this).val());
+});
+
+$('.fbdata').blur(function() {
+	if($(this).val()!=""){
+		v=$(this).val();
+		if(v.indexOf("https:") == -1 && v.indexOf("http") == -1)
+			v="https://"+v;
+    	$('.fblink').css('display','inline-block').attr('href',v);
+	}
+    else
+    	$('.fblink').css('display','none').attr('href',"");
+});
+$('.twdata').blur(function() {
+    if($(this).val()!=""){
+    	v=$(this).val();
+		if(v.indexOf("https:") == -1 && v.indexOf("http") == -1)
+			v="https://"+v;
+    	$('.twlink').css('display','inline-block').attr('href',v);
+    }
+    else
+    	$('.twlink').css('display','none').attr('href',"");
+});
+$('.lndata').blur(function() {
+    if($(this).val()!="") {
+    	v=$(this).val();
+		if(v.indexOf("https:") == -1 && v.indexOf("http") == -1)
+			v="https://"+v;
+    	$('.lnlink').css('display','inline-block').attr('href',v);
+    }
+    else
+    	$('.lnlink').css('display','none').attr('href',"");
+});
+$('.indata').blur(function() {
+    if($(this).val()!="") {
+    	v=$(this).val();
+		if(v.indexOf("https:") == -1 && v.indexOf("http") == -1)
+			v="https://"+v;
+    	$('.inlink').css('display','inline-block').attr('href',v);
+    }
+    else
+    	$('.inlink').css('display','none').attr('href',"");
+});
+$('.gpdata').blur(function() {
+    if($(this).val()!="") {
+    	v=$(this).val();
+		if(v.indexOf("https:") == -1  && v.indexOf("http") == -1)
+			v="https://"+v;
+    	$('.gplink').css('display','inline-block').attr('href',v);
+    }
+    else
+    	$('.gplink').css('display','none').attr('href',"");
+});
+$('.ghdata').blur(function() {
+    if($(this).val()!="") {
+    	v=$(this).val();
+		if(v.indexOf("https:") == -1 && v.indexOf("http") == -1)
+			v="https://"+v;
+    	$('.ghlink').css('display','inline-block').attr('href',v);
+    }
+    else
+    	$('.ghlink').css('display','none').attr('href',"");
+});
+$('.img_url').blur(function() {
+	if($(this).val()!=""){
+    	$('.profile_image').attr('src',$(this).val());
+	}
+	else
+		$('.profile_image').attr('src',"https://signature-generator.cdn.codetwo.com/images/simplephoto/photo.png");
+});
+$(".radio_type").click(function() {
+
+	if($(this).val() == "student") {
+		$(".profession_key").html("Pursuing");
+		$(".prof_text").attr('placeholder',"What are you pursuing?");
+		$('.profession').html("Degree");
+	}
+	else if($(this).val() == "faculty") {
+		$(".profession_key").html("Works as");
+		$(".prof_text").attr('placeholder',"Job Title");
+		$('.profession').html("Profession");
+	}
+});
+});
+</script>
+
+
